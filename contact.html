@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light only">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="inner-pages.css">
+    <title>North Star Bakery | Contact</title>
+</head>
+<body class="contact-page">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand-mark" href="index.html">
+                <img src="bakery-logo-transparent.png" alt="North Star Bakery logo">
+            </a>
+
+            <nav aria-label="Primary navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+
+            <p class="header-note">Fresh bakes.<br>Brighter days. ♡</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-hero page-shell" aria-labelledby="contact-heading">
+            <div>
+                <p class="eyebrow">Get in touch</p>
+                <h1 id="contact-heading">Let's bake something good together.</h1>
+                <p>Tell us what you need and your preferred pickup date. This form does not place an online order; it sends the details so the bakery can confirm them with you.</p>
+            </div>
+            <p class="side-note">A little notice makes larger orders easier. ♡</p>
+        </section>
+
+        <section class="contact-main page-shell">
+            <div class="contact-form-wrap">
+                <p class="eyebrow">Send us a message</p>
+                <h2>Pre-order or general question</h2>
+
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Your contact information</legend>
+                        <div class="field-pair">
+                            <p>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" autocomplete="name" required minlength="2" maxlength="60">
+                            </p>
+                            <p>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" autocomplete="email" required>
+                            </p>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Request details</legend>
+                        <p>
+                            <label for="pickup-date">Preferred pickup date:</label>
+                            <input type="date" id="pickup-date" name="pickup-date" required>
+                        </p>
+
+                        <div class="request-type">
+                            <p><strong>Request type:</strong></p>
+                            <div class="radio-options">
+                                <p class="radio-line">
+                                    <input type="radio" id="preorder" name="request-type" value="preorder" required>
+                                    <label for="preorder">Pre-order</label>
+                                </p>
+                                <p class="radio-line">
+                                    <input type="radio" id="general-question" name="request-type" value="general-question">
+                                    <label for="general-question">General question</label>
+                                </p>
+                            </div>
+                        </div>
+
+                        <p>
+                            <label for="item-details">Item details:</label>
+                            <textarea id="item-details" name="item-details" rows="6" cols="50" required minlength="10" maxlength="500" placeholder="Tell us the item, quantity, size, flavor, or event details."></textarea>
+                        </p>
+
+                        <p>
+                            <label for="allergy-notes">Allergy notes, if applicable:</label>
+                            <textarea id="allergy-notes" name="allergy-notes" rows="4" cols="50" maxlength="300" placeholder="List any allergy concerns or write none."></textarea>
+                        </p>
+                    </fieldset>
+
+                    <div class="form-action">
+                        <button type="submit">Send request</button>
+                        <p class="small-side-note">We'll follow up about availability.</p>
+                    </div>
+                </form>
+            </div>
+
+            <aside class="contact-info">
+                <section aria-labelledby="location-heading">
+                    <p class="eyebrow">Find us</p>
+                    <h2 id="location-heading">Location</h2>
+                    <address>
+                        North Star Bakery<br>
+                        125 North Star Avenue<br>
+                        Neighborhood Center
+                    </address>
+                </section>
+
+                <section aria-labelledby="hours-heading">
+                    <p class="eyebrow">When we're open</p>
+                    <h2 id="hours-heading">Hours</h2>
+                    <p><strong>Monday-Friday</strong><br>6:30 a.m.-6:00 p.m.</p>
+                    <p><strong>Saturday</strong><br>7:00 a.m.-4:00 p.m.</p>
+                    <p><strong>Sunday</strong><br>8:00 a.m.-2:00 p.m.</p>
+                </section>
+
+                <section class="preorder-note" aria-labelledby="preorder-note-heading">
+                    <p class="eyebrow">Before pickup day</p>
+                    <h2 id="preorder-note-heading">A note about pre-orders</h2>
+                    <p>For larger requests, a little extra notice helps. We will confirm availability and pickup details after we receive the form.</p>
+                </section>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 North Star Bakery</p>
+            <p>Pre-orders are confirmed after we reply.</p>
+        </div>
+    </footer>
+</body>
+</html>

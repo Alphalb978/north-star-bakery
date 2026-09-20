@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light only">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <title>North Star Bakery | Home</title>
+</head>
+<body class="home-page">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand-mark" href="index.html">
+                <img src="bakery-logo-transparent.png" alt="North Star Bakery logo">
+            </a>
+
+            <nav aria-label="Primary navigation">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <p class="header-note">Fresh bakes.<br>Brighter days. ♡</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="home-hero" aria-labelledby="welcome-heading">
+            <div class="hero-inner">
+                <div class="hero-copy">
+                    <p class="eyebrow">Fresh bread. Brighter days.</p>
+                    <h1 id="welcome-heading">Good things<br>rise here. <span class="hero-heart" aria-hidden="true">♡</span></h1>
+                    <span class="rough-line" aria-hidden="true"></span>
+                    <p class="hero-intro">North Star Bakery makes fresh bread, pastries, and cakes for the neighborhood. Small batches, familiar favorites, and a place that feels easy to stop by.</p>
+                    <div class="button-row">
+                        <a class="button-link" href="#bakery-video">▶ Watch our story</a>
+                        <a class="outline-link" href="products.html">View our products</a>
+                    </div>
+                </div>
+
+                <div class="hero-video-card" id="bakery-video">
+                    <span class="tape-strip" aria-hidden="true"></span>
+                    <video controls preload="metadata" poster="bakery-bread_c.png">
+                        <source src="bakery-behind-scenes-with-audio_c.mp4" type="video/mp4">
+                        Your browser does not support the video element. You can still read about North Star Bakery on the About page.
+                    </video>
+                    <p class="video-note">A look behind the scenes ↘</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="favorites-paper">
+            <div class="favorites-section page-shell" aria-labelledby="known-for-heading">
+                <div class="favorites-copy">
+                    <p class="eyebrow">What we're known for</p>
+                    <h2 id="known-for-heading">Everyday favorites,<br>made with care.</h2>
+                    <span class="small-rough-line" aria-hidden="true"></span>
+                    <p>From crusty breads to buttery pastries, we make the kinds of baked goods that bring people together. Stop in for something simple, or place an order ahead if you need a little more.</p>
+
+                    <div class="favorite-list">
+                        <article>
+                            <h3>Fresh bread</h3>
+                            <p>Hand-shaped loaves baked throughout the week.</p>
+                        </article>
+                        <article>
+                            <h3>Morning pastries</h3>
+                            <p>Croissants, buns, and seasonal treats.</p>
+                        </article>
+                        <article>
+                            <h3>Cakes &amp; orders</h3>
+                            <p>For birthdays, family events, and small gatherings.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="featured-photo">
+                    <span class="photo-tape" aria-hidden="true"></span>
+                    <picture>
+                        <source media="(min-width: 800px)" srcset="bakery-feature-large_c.png">
+                        <img src="bakery-feature-small_c.png" alt="Fresh baked goods arranged for customers at North Star Bakery">
+                    </picture>
+                    <p class="photo-note">Real ingredients.<br>Happier neighbors. ♡</p>
+                </div>
+
+                <aside class="weekly-card">
+                    <p class="eyebrow">This week's pick</p>
+                    <h2>Honey Oat<br>Morning Loaf</h2>
+                    <span class="small-rough-line" aria-hidden="true"></span>
+                    <p>A soft loaf with toasted oats and a touch of sweetness. It's great for breakfast, sandwiches, or just a slice with butter.</p>
+                    <a class="weekly-link" href="products.html">See the full menu</a>
+                </aside>
+            </div>
+        </section>
+
+        <section class="visit-band" aria-labelledby="visit-heading">
+            <div class="page-shell visit-grid">
+                <div class="visit-intro">
+                    <p class="hand-note">Come for the baked goods.<br>Stay for the community. ♡</p>
+                </div>
+
+                <div>
+                    <p class="eyebrow">Location</p>
+                    <h2 id="visit-heading">125 North Star Avenue</h2>
+                    <p>Neighborhood Center</p>
+                </div>
+
+                <div>
+                    <p class="eyebrow">Hours</p>
+                    <p>Monday-Friday: 6:30 a.m.-6:00 p.m.<br>
+                    Saturday: 7:00 a.m.-4:00 p.m.<br>
+                    Sunday: 8:00 a.m.-2:00 p.m.</p>
+                </div>
+
+                <div class="footer-tag">
+                    <p>Fresh bakes.<br>Stronger community. ♡</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 North Star Bakery</p>
+            <p>Fresh bakes for the neighborhood.</p>
+        </div>
+    </footer>
+</body>
+</html>
